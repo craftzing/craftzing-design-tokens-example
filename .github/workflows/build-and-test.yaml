@@ -18,29 +18,33 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Set up Node.js 20 and install pnpm
+      # Step 2: Set up Node.js 20
       - name: Set up Node.js 20
         uses: actions/setup-node@v3
         with:
           node-version: 20
-          cache: 'pnpm'
 
+      # Step 3: Install pnpm
       - name: Install pnpm
         run: |
           corepack enable
           corepack prepare pnpm@latest --activate
 
-      # Step 3: Install dependencies
+      # Step 4: Verify pnpm installation
+      - name: Verify pnpm installation
+        run: pnpm --version
+
+      # Step 5: Install dependencies
       - name: Install dependencies
         run: pnpm install
 
-      # Step 4: Build the project
+      # Step 6: Build the project
       - name: Build project
         run: pnpm build
         env:
           NODE_ENV: production
 
-      # Step 5: Run tests
+      # Step 7: Run tests
       - name: Run tests
         run: pnpm test
 
