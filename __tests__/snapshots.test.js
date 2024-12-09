@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { expect, it, describe } from 'vitest';
 
-const BUILD_PATH = './build';
+const BUILD_PATH = './dist';
 
 describe('Token Build Snapshot Tests', () => {
   it('should match the snapshot for CSS tokens', () => {
