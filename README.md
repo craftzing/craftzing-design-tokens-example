@@ -4,7 +4,7 @@ This repository uses [Style Dictionary](https://amzn.github.io/style-dictionary/
 
 ### Key Directories
 
-- **`build/`**: Contains the generated output files for each platform (CSS, SCSS, JS).
+- **`dist/`**: Contains the generated output files for each platform (CSS, SCSS, JS).
 - **`token-studio/`**: Source of design tokens in JSON format, synced via Token Studio.
 - **`lib/`**: Includes project-specific scripts and utilities.
 
@@ -20,8 +20,8 @@ This repository uses [Style Dictionary](https://amzn.github.io/style-dictionary/
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone git@github.com:craftzing/craftzing-design-tokens-example.git
+cd craftzing-design-tokens-example
 ```
 
 2. Install dependencies
@@ -44,6 +44,27 @@ This will:
 
 1. Clean all previous builds.
 2. Generate token files in the build/ directory.
+
+### Testing Design Tokens
+
+Ensure the generated design tokens are accurate and reflect expected changes by running the test suite.
+
+#### Run tests
+To execute the tests and validate your tokens:
+
+```bash
+pnpm run test
+```
+
+#### Update tests
+
+If your tokens have intentionally changed and you need to update the test snapshots:
+
+```bash
+pnpm run test --u
+```
+
+> **Tip:** Regularly run tests to track changes and ensure updates are intentional. Verify the changes before updating snapshots to avoid introducing unintended modifications.
 
 ## File Outputs
 
