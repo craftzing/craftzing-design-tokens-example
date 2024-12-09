@@ -28,4 +28,12 @@ describe('Token Build Snapshot Tests', () => {
     );
     expect(jsTokens).toMatchSnapshot();
   });
+
+  it('should match the snapshot for TS tokens', () => {
+    const tsTokens = fs.readFileSync(
+      path.join(BUILD_PATH, 'ts/tokens.d.ts'),
+      'utf-8'
+    );
+    expect(tsTokens).toMatchSnapshot();
+  });
 });
