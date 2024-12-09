@@ -1,0 +1,62 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Token Build Snapshot Tests > should match the snapshot for CSS tokens 1`] = `
+"/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --colors-red300: #fca5a5;
+  --colors-red500: #ef4444;
+  --colors-red700: #b91c1c;
+  --colors-black: #000000;
+  --colors-white: #ffffff;
+  --spacing-sm: 0.25rem;
+  --spacing-md: 0.5rem;
+  --spacing-lg: 1rem;
+  --spacing-xl: 2rem;
+  --typography-font-sizes-small: 0.75rem;
+  --typography-font-sizes-medium: 1rem;
+  --typography-font-sizes-large: 1.5rem;
+}
+"
+`;
+
+exports[`Token Build Snapshot Tests > should match the snapshot for JS tokens 1`] = `
+"/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+export const colorsRed300 = "#fca5a5";
+export const colorsRed500 = "#ef4444";
+export const colorsRed700 = "#b91c1c";
+export const colorsBlack = "#000000";
+export const colorsWhite = "#ffffff";
+export const spacingSm = "4px";
+export const spacingMd = "8px";
+export const spacingLg = "16px";
+export const spacingXl = "32px";
+export const typographyFontSizesSmall = "12px";
+export const typographyFontSizesMedium = "16px";
+export const typographyFontSizesLarge = "24px";
+"
+`;
+
+exports[`Token Build Snapshot Tests > should match the snapshot for SCSS tokens 1`] = `
+"
+// Do not edit directly, this file was auto-generated.
+
+$colors-red300: #fca5a5;
+$colors-red500: #ef4444;
+$colors-red700: #b91c1c;
+$colors-black: #000000;
+$colors-white: #ffffff;
+$spacing-sm: 0.25rem;
+$spacing-md: 0.5rem;
+$spacing-lg: 1rem;
+$spacing-xl: 2rem;
+$typography-font-sizes-small: 0.75rem;
+$typography-font-sizes-medium: 1rem;
+$typography-font-sizes-large: 1.5rem;
+"
+`;

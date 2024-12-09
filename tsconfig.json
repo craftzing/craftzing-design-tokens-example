@@ -1,5 +1,5 @@
 {
-    "compilerOptions": {
+  "compilerOptions": {
     "checkJs": true,
     "allowJs": true,
     "strict": true,
@@ -12,7 +12,6 @@
     "resolveJsonModule": true,
     "skipLibCheck": true
   },
-    "include": ["lib/**/*.js"],
-    "exclude": ["node_modules"]
+  "include": ["lib/**/*.js"],
+  "exclude": ["node_modules"]
 }
-  
