@@ -1,6 +1,5 @@
 name: Build and Test
 
-# Trigger on push to main and all pull requests
 on:
   push:
     branches:
@@ -19,28 +18,29 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Set up Node.js 20 and cache pnpm dependencies
-      - name: Set up Node.js
+      # Step 2: Set up Node.js 20 and install pnpm
+      - name: Set up Node.js 20
         uses: actions/setup-node@v3
         with:
           node-version: 20
           cache: 'pnpm'
 
-      # Step 3: Install pnpm
       - name: Install pnpm
-        run: corepack enable && corepack prepare pnpm@latest --activate
+        run: |
+          corepack enable
+          corepack prepare pnpm@latest --activate
 
-      # Step 4: Install dependencies
+      # Step 3: Install dependencies
       - name: Install dependencies
         run: pnpm install
 
-      # Step 5: Build the project
+      # Step 4: Build the project
       - name: Build project
         run: pnpm build
         env:
           NODE_ENV: production
 
-      # Step 6: Run tests
+      # Step 5: Run tests
       - name: Run tests
         run: pnpm test
 
