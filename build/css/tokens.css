@@ -1,0 +1,73 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --color-blue-10: #e6f6ff;
+  --color-blue-20: #c8eafd;
+  --color-blue-30: #acdefa;
+  --color-blue-40: #6fc4f2;
+  --color-blue-50: #36a7e6;
+  --color-blue-60: #0c8dd4;
+  --color-blue-70: #0d7dbb;
+  --color-blue-80: #07679c;
+  --color-blue-90: #034d75;
+  --color-blue-100: #00324d;
+  --color-blue-light: #0c8dd4;
+  --color-blue-base: #0d7dbb;
+  --color-blue-dark: #07679c;
+  --color-green-10: #ebfff1;
+  --color-green-20: #d5fbe1;
+  --color-green-30: #c0f8d1;
+  --color-green-40: #90eead;
+  --color-green-50: #62df88;
+  --color-green-60: #37ca63;
+  --color-green-70: #17ac44;
+  --color-green-80: #158637;
+  --color-green-90: #075e21;
+  --color-green-100: #00330f;
+  --color-green-light: #17ac44;
+  --color-green-base: #158637;
+  --color-green-dark: #075e21;
+  --color-red-10: #ffe9e6;
+  --color-red-20: #ffd1c9;
+  --color-red-30: #ffb8ab;
+  --color-red-40: #fe836c;
+  --color-red-50: #f54e2f;
+  --color-red-60: #e72501;
+  --color-red-70: #ca2001;
+  --color-red-80: #a61a00;
+  --color-red-90: #7a1300;
+  --color-red-100: #4d0b00;
+  --color-red-light: #f54e2f;
+  --color-red-base: #e72501;
+  --color-red-dark: #ca2001;
+  --color-orange-10: #fff4e6;
+  --color-orange-20: #ffe9c7;
+  --color-orange-30: #ffdea8;
+  --color-orange-40: #ffc066;
+  --color-orange-50: #ffa024;
+  --color-orange-60: #e98400;
+  --color-orange-70: #cc7300;
+  --color-orange-80: #a75e00;
+  --color-orange-90: #7b4600;
+  --color-orange-100: #4d2b00;
+  --color-orange-light: #ffc066;
+  --color-orange-base: #ffa024;
+  --color-orange-dark: #e98400;
+  --color-neutral-10: #f2f2f2;
+  --color-neutral-20: #e6e6e6;
+  --color-neutral-30: #cccccc;
+  --color-neutral-40: #b3b3b3;
+  --color-neutral-50: #999999;
+  --color-neutral-60: #808080;
+  --color-neutral-70: #666666;
+  --color-neutral-80: #4d4d4d;
+  --color-neutral-90: #333333;
+  --color-neutral-100: #1a1a1a;
+  --color-neutral-light: #808080;
+  --color-neutral-base: #666666;
+  --color-neutral-dark: #4d4d4d;
+  --color-neutral-black: #000000;
+  --color-neutral-white: #ffffff;
+}
