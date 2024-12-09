@@ -43,7 +43,7 @@ pnpm run build
 This will:
 
 1. Clean all previous builds.
-2. Generate token files in the build/ directory.
+2. Generate token files in the dist/ directory.
 
 ### Testing Design Tokens
 
@@ -68,6 +68,6 @@ pnpm run test --u
 
 ## File Outputs
 
-- CSS: `build/css/tokens.css`
-- SCSS: `build/scss/tokens.scss`
-- JavaScript: `build/js/tokens.js`
+- CSS: `dist/css/tokens.css`
+- SCSS: `dist/scss/tokens.scss`
+- JavaScript: `dist/js/tokens.js`
