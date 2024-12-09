@@ -26,10 +26,7 @@
     "eslint-plugin-promise": "^7.2.1",
     "prettier": "^3.4.2",
     "style-dictionary": "^4.2.0",
-    "typescript": "^5.7.2"
-  },
-  "dependencies": {
-    "just-camel-case": "^6.2.0",
+    "typescript": "^5.7.2",
     "vitest": "^2.1.8"
   }
 }
