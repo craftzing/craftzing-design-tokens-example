@@ -47,10 +47,3 @@ jobs:
       # Step 7: Run tests
       - name: Run tests
         run: pnpm test
-
-      # Optional: Upload build artifacts (dist folder)
-      - name: Upload build artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: dist
-          path: dist/
