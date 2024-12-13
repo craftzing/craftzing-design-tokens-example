@@ -71,3 +71,8 @@ pnpm run test --u
 - CSS: `dist/css/tokens.css`
 - SCSS: `dist/scss/tokens.scss`
 - JavaScript: `dist/js/tokens.js`
+
+## Figma Link
+https://www.figma.com/design/daVJlWWwwrulalbC4LGMnf/Design-Tokens-Example?m=auto&t=pPQmTn84ub1togTX-6
+
+I use this figma file, i'm terrible at figma so if you can improve it, feel free.
