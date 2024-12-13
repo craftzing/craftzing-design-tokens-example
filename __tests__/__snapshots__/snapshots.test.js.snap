@@ -8,13 +8,13 @@ exports[`Token Build Snapshot Tests > should match the snapshot for CSS tokens 1
 :root {
   --foundations-colors-primary: #1a297c;
   --foundations-colors-secondary: #ef268b;
-  --foundations-colors-white: #fcfcfc;
+  --foundations-colors-white: #ffffff;
   --foundations-colors-black: #000000;
   --typography-font-sizes-small: 0.75rem;
   --typography-font-sizes-medium: 1rem;
   --typography-font-sizes-large: 1.5rem;
   --components-button-background: #1a297c;
-  --components-button-foreground: #fcfcfc;
+  --components-button-foreground: #ffffff;
   --components-button-typography: 400 16px "Roboto", system-ui;
 }
 "
@@ -27,13 +27,13 @@ exports[`Token Build Snapshot Tests > should match the snapshot for JS tokens 1`
 
 export const foundationsColorsPrimary = "#1a297c";
 export const foundationsColorsSecondary = "#ef268b";
-export const foundationsColorsWhite = "#fcfcfc";
+export const foundationsColorsWhite = "#ffffff";
 export const foundationsColorsBlack = "#000000";
 export const typographyFontSizesSmall = "12px";
 export const typographyFontSizesMedium = "16px";
 export const typographyFontSizesLarge = "24px";
 export const componentsButtonBackground = "#1a297c";
-export const componentsButtonForeground = "#fcfcfc";
+export const componentsButtonForeground = "#ffffff";
 export const componentsButtonTypography = {
   fontFamily: '"Roboto", system-ui',
   fontWeight: "400",
@@ -47,13 +47,13 @@ exports[`Token Build Snapshot Tests > should match the snapshot for SCSS tokens 
 
 $foundations-colors-primary: #1a297c;
 $foundations-colors-secondary: #ef268b;
-$foundations-colors-white: #fcfcfc;
+$foundations-colors-white: #ffffff;
 $foundations-colors-black: #000000;
 $typography-font-sizes-small: 0.75rem;
 $typography-font-sizes-medium: 1rem;
 $typography-font-sizes-large: 1.5rem;
 $components-button-background: #1a297c;
-$components-button-foreground: #fcfcfc;
+$components-button-foreground: #ffffff;
 $components-button-typography: 400 16px "Roboto", system-ui;
 "
 `;
@@ -65,13 +65,13 @@ exports[`Token Build Snapshot Tests > should match the snapshot for TS tokens 1`
 
 export const foundationsColorsPrimary: "#1a297c";
 export const foundationsColorsSecondary: "#ef268b";
-export const foundationsColorsWhite: "#fcfcfc";
+export const foundationsColorsWhite: "#ffffff";
 export const foundationsColorsBlack: "#000000";
 export const typographyFontSizesSmall: "12px";
 export const typographyFontSizesMedium: "16px";
 export const typographyFontSizesLarge: "24px";
 export const componentsButtonBackground: "#1a297c";
-export const componentsButtonForeground: "#fcfcfc";
+export const componentsButtonForeground: "#ffffff";
 export const componentsButtonTypography: {
   fontFamily: string;
   fontWeight: string;
