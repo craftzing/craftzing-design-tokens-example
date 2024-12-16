@@ -1,6 +1,6 @@
 import { createApp } from 'vue/dist/vue.esm-bundler.js';
 import Button from './Button.vue';
-import '../../dist/css/tokens.css';
+import '../../dist/token-studio/css/tokens.css';
 
 const App = {
   components: { Button },

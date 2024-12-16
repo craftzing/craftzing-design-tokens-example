@@ -1,36 +1,44 @@
-{
-  "primary": {
-    "$scopes": ["ALL_SCOPES"],
-    "$type": "color",
-    "$value": "#1a297c"
-  },
-  "secondary": {
-    "$scopes": ["ALL_SCOPES"],
-    "$type": "color",
-    "$value": "#ef268b"
-  },
-  "white": {
-    "$scopes": ["ALL_SCOPES"],
-    "$type": "color",
-    "$value": "#ffffff"
-  },
-  "black": {
-    "$scopes": ["ALL_SCOPES"],
-    "$type": "color",
-    "$value": "#000000"
-  },
-  "button-background": {
-    "$scopes": ["ALL_SCOPES"],
-    "$type": "color",
-    "$libraryName": "",
-    "$collectionName": "Collection 1",
-    "$value": "{primary}"
-  },
-  "button-foreground": {
-    "$scopes": ["ALL_SCOPES"],
-    "$type": "color",
-    "$libraryName": "",
-    "$collectionName": "Collection 1",
-    "$value": "{white}"
+[
+  {
+    "Collection 1": {
+      "modes": {
+        "Mode 1": {
+          "primary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#1a297c"
+          },
+          "secondary": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#ef268b"
+          },
+          "white": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "black": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "button-background": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$libraryName": "",
+            "$collectionName": "Collection 1",
+            "$value": "{primary}"
+          },
+          "button-foreground": {
+            "$scopes": ["ALL_SCOPES"],
+            "$type": "color",
+            "$libraryName": "",
+            "$collectionName": "Collection 1",
+            "$value": "{white}"
+          }
+        }
+      }
+    }
   }
-}
+]

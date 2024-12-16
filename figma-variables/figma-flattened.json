@@ -1,0 +1,52 @@
+{
+  "primary": {
+    "$scopes": [
+      "ALL_SCOPES"
+    ],
+    "$type": "color",
+    "$value": "#1a297c",
+    "$collectionName": "0"
+  },
+  "secondary": {
+    "$scopes": [
+      "ALL_SCOPES"
+    ],
+    "$type": "color",
+    "$value": "#ef268b",
+    "$collectionName": "0"
+  },
+  "white": {
+    "$scopes": [
+      "ALL_SCOPES"
+    ],
+    "$type": "color",
+    "$value": "#ffffff",
+    "$collectionName": "0"
+  },
+  "black": {
+    "$scopes": [
+      "ALL_SCOPES"
+    ],
+    "$type": "color",
+    "$value": "#000000",
+    "$collectionName": "0"
+  },
+  "button-background": {
+    "$scopes": [
+      "ALL_SCOPES"
+    ],
+    "$type": "color",
+    "$libraryName": "",
+    "$collectionName": "0",
+    "$value": "{primary}"
+  },
+  "button-foreground": {
+    "$scopes": [
+      "ALL_SCOPES"
+    ],
+    "$type": "color",
+    "$libraryName": "",
+    "$collectionName": "0",
+    "$value": "{white}"
+  }
+}

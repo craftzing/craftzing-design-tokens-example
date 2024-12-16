@@ -5,9 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "prebuild": "node ./lib/prebuild.js",
     "build": "pnpm run build:token:studio && pnpm run build:figma:variables",
     "build:token:studio": "node ./lib/index.js --source=./token-studio/tokens.json --output=./dist/token-studio",
-    "build:figma:variables": "node ./lib/index.js --source=./figma-variables/export.json --output=./dist/figma-variables/",
+    "build:figma:variables": "node ./lib/index.js --source=./figma-variables/figma-flattened.json --output=./dist/figma-variables/",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",

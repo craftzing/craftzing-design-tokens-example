@@ -1,5 +1,4 @@
-import '../../dist/css/tokens.css';
-
+import '../../dist/token-studio/css/tokens.css';
 class CustomButton extends HTMLElement {
   constructor() {
     super();
