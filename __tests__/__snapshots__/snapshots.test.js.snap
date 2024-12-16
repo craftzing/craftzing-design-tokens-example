@@ -1,6 +1,63 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Token Build Snapshot Tests > should match the snapshot for CSS tokens 1`] = `
+exports[`Token Build Snapshot Tests > should match the snapshot for 'figma-variables' 'css' tokens 1`] = `
+"/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --primary: #1a297c;
+  --secondary: #ef268b;
+  --white: #ffffff;
+  --black: #000000;
+  --button-background: #1a297c;
+  --button-foreground: #ffffff;
+}
+"
+`;
+
+exports[`Token Build Snapshot Tests > should match the snapshot for 'figma-variables' 'js' tokens 1`] = `
+"/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+export const primary = "#1a297c";
+export const secondary = "#ef268b";
+export const white = "#ffffff";
+export const black = "#000000";
+export const buttonBackground = "#1a297c";
+export const buttonForeground = "#ffffff";
+"
+`;
+
+exports[`Token Build Snapshot Tests > should match the snapshot for 'figma-variables' 'scss' tokens 1`] = `
+"
+// Do not edit directly, this file was auto-generated.
+
+$primary: #1a297c;
+$secondary: #ef268b;
+$white: #ffffff;
+$black: #000000;
+$button-background: #1a297c;
+$button-foreground: #ffffff;
+"
+`;
+
+exports[`Token Build Snapshot Tests > should match the snapshot for 'figma-variables' 'ts' tokens 1`] = `
+"/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+export const primary: "#1a297c";
+export const secondary: "#ef268b";
+export const white: "#ffffff";
+export const black: "#000000";
+export const buttonBackground: "#1a297c";
+export const buttonForeground: "#ffffff";
+"
+`;
+
+exports[`Token Build Snapshot Tests > should match the snapshot for 'token-studio' 'css' tokens 1`] = `
 "/**
  * Do not edit directly, this file was auto-generated.
  */
@@ -20,7 +77,7 @@ exports[`Token Build Snapshot Tests > should match the snapshot for CSS tokens 1
 "
 `;
 
-exports[`Token Build Snapshot Tests > should match the snapshot for JS tokens 1`] = `
+exports[`Token Build Snapshot Tests > should match the snapshot for 'token-studio' 'js' tokens 1`] = `
 "/**
  * Do not edit directly, this file was auto-generated.
  */
@@ -41,7 +98,7 @@ export const componentsButtonTypography = {
 "
 `;
 
-exports[`Token Build Snapshot Tests > should match the snapshot for SCSS tokens 1`] = `
+exports[`Token Build Snapshot Tests > should match the snapshot for 'token-studio' 'scss' tokens 1`] = `
 "
 // Do not edit directly, this file was auto-generated.
 
@@ -58,7 +115,7 @@ $components-button-typography: 400 16px "Roboto", system-ui;
 "
 `;
 
-exports[`Token Build Snapshot Tests > should match the snapshot for TS tokens 1`] = `
+exports[`Token Build Snapshot Tests > should match the snapshot for 'token-studio' 'ts' tokens 1`] = `
 "/**
  * Do not edit directly, this file was auto-generated.
  */
