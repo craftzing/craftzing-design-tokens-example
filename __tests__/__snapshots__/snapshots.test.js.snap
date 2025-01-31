@@ -71,7 +71,7 @@ export const buttonPaddingVertical: string;
 
 exports[`Token Build Snapshot Tests > should match the snapshot for 'token-studio' 'css' tokens 1`] = `
 ":root {
-  --blue: #1a297c;
+  --blue: #162a99;
   --pink: #ef268b;
   --white: #ffffff;
   --black: #000000;
@@ -90,13 +90,13 @@ exports[`Token Build Snapshot Tests > should match the snapshot for 'token-studi
  * Do not edit directly, this file was auto-generated.
  */
 
-export const blue = "#1a297c";
+export const blue = "#162a99";
 export const pink = "#ef268b";
 export const white = "#ffffff";
 export const black = "#000000";
 export const large = "10px";
 export const small = "5px";
-export const buttonBackground = "#1a297c";
+export const buttonBackground = "#162a99";
 export const buttonPaddingHorizontal = "10px";
 export const buttonPaddingVertical = "5px";
 export const buttonForeground = "#ffffff";
@@ -107,13 +107,13 @@ exports[`Token Build Snapshot Tests > should match the snapshot for 'token-studi
 "
 // Do not edit directly, this file was auto-generated.
 
-$blue: #1a297c;
+$blue: #162a99;
 $pink: #ef268b;
 $white: #ffffff;
 $black: #000000;
 $large: 0.625rem;
 $small: 0.3125rem;
-$button-background: #1a297c;
+$button-background: #162a99;
 $button-padding-horizontal: 0.625rem;
 $button-padding-vertical: 0.3125rem;
 $button-foreground: #ffffff;
