@@ -13,5 +13,5 @@
     "skipLibCheck": true
   },
   "include": ["lib/**/*.js"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "lib/prebuild.js"]
 }

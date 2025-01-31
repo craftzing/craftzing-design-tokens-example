@@ -1,4 +1,4 @@
-import '../../dist/token-studio/css/tokens.css';
+import '../../dist/figma-variables/css/tokens.css';
 class CustomButton extends HTMLElement {
   constructor() {
     super();

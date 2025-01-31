@@ -1,17 +1,17 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`Token Build Snapshot Tests > should match the snapshot for 'figma-variables' 'css' tokens 1`] = `
-"/**
- * Do not edit directly, this file was auto-generated.
- */
-
-:root {
-  --primary: #1a297c;
-  --secondary: #ef268b;
+":root {
+  --blue: #1a297c;
+  --pink: #ef268b;
   --white: #ffffff;
   --black: #000000;
-  --button-background: #1a297c;
-  --button-foreground: #ffffff;
+  --small: 0.3125rem;
+  --large: 0.625rem;
+  --button-background: var(--blue);
+  --button-foreground: var(--white);
+  --button-padding-horizontal: var(--large);
+  --button-padding-vertical: var(--small);
 }
 "
 `;
@@ -21,12 +21,16 @@ exports[`Token Build Snapshot Tests > should match the snapshot for 'figma-varia
  * Do not edit directly, this file was auto-generated.
  */
 
-export const primary = "#1a297c";
-export const secondary = "#ef268b";
+export const blue = "#1a297c";
+export const pink = "#ef268b";
 export const white = "#ffffff";
 export const black = "#000000";
+export const small = "5px";
+export const large = "10px";
 export const buttonBackground = "#1a297c";
 export const buttonForeground = "#ffffff";
+export const buttonPaddingHorizontal = "10px";
+export const buttonPaddingVertical = "5px";
 "
 `;
 
@@ -34,12 +38,16 @@ exports[`Token Build Snapshot Tests > should match the snapshot for 'figma-varia
 "
 // Do not edit directly, this file was auto-generated.
 
-$primary: #1a297c;
-$secondary: #ef268b;
+$blue: #1a297c;
+$pink: #ef268b;
 $white: #ffffff;
 $black: #000000;
+$small: 0.3125rem;
+$large: 0.625rem;
 $button-background: #1a297c;
 $button-foreground: #ffffff;
+$button-padding-horizontal: 0.625rem;
+$button-padding-vertical: 0.3125rem;
 "
 `;
 
@@ -48,31 +56,31 @@ exports[`Token Build Snapshot Tests > should match the snapshot for 'figma-varia
  * Do not edit directly, this file was auto-generated.
  */
 
-export const primary: "#1a297c";
-export const secondary: "#ef268b";
-export const white: "#ffffff";
-export const black: "#000000";
-export const buttonBackground: "#1a297c";
-export const buttonForeground: "#ffffff";
+export const blue: string;
+export const pink: string;
+export const white: string;
+export const black: string;
+export const small: string;
+export const large: string;
+export const buttonBackground: string;
+export const buttonForeground: string;
+export const buttonPaddingHorizontal: string;
+export const buttonPaddingVertical: string;
 "
 `;
 
 exports[`Token Build Snapshot Tests > should match the snapshot for 'token-studio' 'css' tokens 1`] = `
-"/**
- * Do not edit directly, this file was auto-generated.
- */
-
-:root {
-  --foundations-colors-primary: #1a297c;
-  --foundations-colors-secondary: #ef268b;
-  --foundations-colors-white: #ffffff;
-  --foundations-colors-black: #000000;
-  --typography-font-sizes-small: 0.75rem;
-  --typography-font-sizes-medium: 1rem;
-  --typography-font-sizes-large: 1.5rem;
-  --components-button-background: #1a297c;
-  --components-button-foreground: #ffffff;
-  --components-button-typography: 400 16px "Roboto", system-ui;
+":root {
+  --blue: #1a297c;
+  --pink: #ef268b;
+  --white: #ffffff;
+  --black: #000000;
+  --large: 0.625rem;
+  --small: 0.3125rem;
+  --button-background: var(--blue);
+  --button-padding-horizontal: var(--large);
+  --button-padding-vertical: var(--small);
+  --button-foreground: var(--white);
 }
 "
 `;
@@ -82,19 +90,16 @@ exports[`Token Build Snapshot Tests > should match the snapshot for 'token-studi
  * Do not edit directly, this file was auto-generated.
  */
 
-export const foundationsColorsPrimary = "#1a297c";
-export const foundationsColorsSecondary = "#ef268b";
-export const foundationsColorsWhite = "#ffffff";
-export const foundationsColorsBlack = "#000000";
-export const typographyFontSizesSmall = "12px";
-export const typographyFontSizesMedium = "16px";
-export const typographyFontSizesLarge = "24px";
-export const componentsButtonBackground = "#1a297c";
-export const componentsButtonForeground = "#ffffff";
-export const componentsButtonTypography = {
-  fontFamily: '"Roboto", system-ui',
-  fontWeight: "400",
-};
+export const blue = "#1a297c";
+export const pink = "#ef268b";
+export const white = "#ffffff";
+export const black = "#000000";
+export const large = "10px";
+export const small = "5px";
+export const buttonBackground = "#1a297c";
+export const buttonPaddingHorizontal = "10px";
+export const buttonPaddingVertical = "5px";
+export const buttonForeground = "#ffffff";
 "
 `;
 
@@ -102,16 +107,16 @@ exports[`Token Build Snapshot Tests > should match the snapshot for 'token-studi
 "
 // Do not edit directly, this file was auto-generated.
 
-$foundations-colors-primary: #1a297c;
-$foundations-colors-secondary: #ef268b;
-$foundations-colors-white: #ffffff;
-$foundations-colors-black: #000000;
-$typography-font-sizes-small: 0.75rem;
-$typography-font-sizes-medium: 1rem;
-$typography-font-sizes-large: 1.5rem;
-$components-button-background: #1a297c;
-$components-button-foreground: #ffffff;
-$components-button-typography: 400 16px "Roboto", system-ui;
+$blue: #1a297c;
+$pink: #ef268b;
+$white: #ffffff;
+$black: #000000;
+$large: 0.625rem;
+$small: 0.3125rem;
+$button-background: #1a297c;
+$button-padding-horizontal: 0.625rem;
+$button-padding-vertical: 0.3125rem;
+$button-foreground: #ffffff;
 "
 `;
 
@@ -120,18 +125,15 @@ exports[`Token Build Snapshot Tests > should match the snapshot for 'token-studi
  * Do not edit directly, this file was auto-generated.
  */
 
-export const foundationsColorsPrimary: "#1a297c";
-export const foundationsColorsSecondary: "#ef268b";
-export const foundationsColorsWhite: "#ffffff";
-export const foundationsColorsBlack: "#000000";
-export const typographyFontSizesSmall: "12px";
-export const typographyFontSizesMedium: "16px";
-export const typographyFontSizesLarge: "24px";
-export const componentsButtonBackground: "#1a297c";
-export const componentsButtonForeground: "#ffffff";
-export const componentsButtonTypography: {
-  fontFamily: string;
-  fontWeight: string;
-};
+export const blue: string;
+export const pink: string;
+export const white: string;
+export const black: string;
+export const large: string;
+export const small: string;
+export const buttonBackground: string;
+export const buttonPaddingHorizontal: string;
+export const buttonPaddingVertical: string;
+export const buttonForeground: string;
 "
 `;

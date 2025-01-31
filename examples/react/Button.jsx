@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Button.module.css';
-import '../../dist/token-studio/css/tokens.css';
+import '../../dist/figma-variables/css/tokens.css';
 
 const Button = ({ children, ...rest }) => {
   return (

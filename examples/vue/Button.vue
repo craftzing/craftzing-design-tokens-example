@@ -12,9 +12,9 @@ const handleClick = () => {
 
 <style scoped>
 .button {
-  background-color: var(--components-button-background);
-  color: var(--components-button-foreground);
-  font: var(--components-button-typography);
-  padding: 8px 16px;
+  background-color: var(--button-background);
+  color: var(--button-foreground);
+  padding: var(--button-padding-vertical) var(--button-padding-horizontal);
+  border: none;
 }
 </style>

@@ -1,19 +1,19 @@
 {
-  "primary": {
+  "blue": {
     "$scopes": [
       "ALL_SCOPES"
     ],
     "$type": "color",
     "$value": "#1a297c",
-    "$collectionName": "0"
+    "$collectionName": "primitives"
   },
-  "secondary": {
+  "pink": {
     "$scopes": [
       "ALL_SCOPES"
     ],
     "$type": "color",
     "$value": "#ef268b",
-    "$collectionName": "0"
+    "$collectionName": "primitives"
   },
   "white": {
     "$scopes": [
@@ -21,7 +21,7 @@
     ],
     "$type": "color",
     "$value": "#ffffff",
-    "$collectionName": "0"
+    "$collectionName": "primitives"
   },
   "black": {
     "$scopes": [
@@ -29,7 +29,23 @@
     ],
     "$type": "color",
     "$value": "#000000",
-    "$collectionName": "0"
+    "$collectionName": "primitives"
+  },
+  "small": {
+    "$scopes": [
+      "ALL_SCOPES"
+    ],
+    "$type": "dimension",
+    "$value": 5,
+    "$collectionName": "primitives"
+  },
+  "large": {
+    "$scopes": [
+      "ALL_SCOPES"
+    ],
+    "$type": "dimension",
+    "$value": 10,
+    "$collectionName": "primitives"
   },
   "button-background": {
     "$scopes": [
@@ -37,8 +53,8 @@
     ],
     "$type": "color",
     "$libraryName": "",
-    "$collectionName": "0",
-    "$value": "{primary}"
+    "$collectionName": "components",
+    "$value": "{blue}"
   },
   "button-foreground": {
     "$scopes": [
@@ -46,7 +62,25 @@
     ],
     "$type": "color",
     "$libraryName": "",
-    "$collectionName": "0",
+    "$collectionName": "components",
     "$value": "{white}"
+  },
+  "button-padding-horizontal": {
+    "$scopes": [
+      "ALL_SCOPES"
+    ],
+    "$type": "dimension",
+    "$libraryName": "",
+    "$collectionName": "components",
+    "$value": "{large}"
+  },
+  "button-padding-vertical": {
+    "$scopes": [
+      "ALL_SCOPES"
+    ],
+    "$type": "dimension",
+    "$libraryName": "",
+    "$collectionName": "components",
+    "$value": "{small}"
   }
 }
